@@ -77,6 +77,14 @@
                 QuickSort(ref list, i, rightIndex);
             }
         }
+        public static void Swap(ref int a, ref int b)
+        {
+            a = a + b;
+            b = a - b;
+            a = a - b;
+        }
+
+
 
         public static int Main()
         {
